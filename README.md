@@ -10,7 +10,7 @@ While the ELK stack was critical for log analysis and incident management, the *
 significantly to the overall storage and compute costs.
 
 #### Existing process
-
+```
 +-------------------+
 |   Jenkins Server  |
 +-------------------+
@@ -39,7 +39,7 @@ significantly to the overall storage and compute costs.
 | Logs Rarely Used for     |
 | Analysis (Mostly Backup) |
 +--------------------------+
-
+```
 
 ### Key Issues:
 - Jenkins logs were **rarely analyzed or used for debugging**.
