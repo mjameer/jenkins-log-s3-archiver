@@ -66,6 +66,7 @@ To address this, I implemented a **cost optimization strategy**:
 
 #### New process
 
+```
 +-------------------+
 |   Jenkins Server  |
 +-------------------+
@@ -87,7 +88,7 @@ To address this, I implemented a **cost optimization strategy**:
 | (Archive Older Logs to      |
 | Glacier/Deep Archive)       |
 +-----------------------------+
-
+```
 
 ---
 
