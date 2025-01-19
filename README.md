@@ -42,7 +42,6 @@ significantly to the overall storage and compute costs.
 ```
 ### Key Issues:
 
-> [!NOTE]
 > Jenkins logs were **rarely analyzed or used for debugging**.
 > Logs were stored in the ELK stack as a **backup only**, resulting in **high costs** due to storage and compute.
 
