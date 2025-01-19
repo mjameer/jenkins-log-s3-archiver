@@ -5,7 +5,7 @@
 
 ## Problem Statement
 
-The client had a **self-hosted ELK stack** (Elasticsearch, Logstash, Kibana) to store logs from applications, Kubernetes, and infrastructure. 
+Organization had a **self-hosted ELK stack** (Elasticsearch, Logstash, Kibana) to store logs from applications, Kubernetes, and infrastructure. 
 While the ELK stack was critical for log analysis and incident management, the **Jenkins logs** from lower environments (UAT, staging) contributed 
 significantly to the overall storage and compute costs.
 
@@ -40,10 +40,11 @@ significantly to the overall storage and compute costs.
 | Analysis (Mostly Backup) |
 +--------------------------+
 ```
-
 ### Key Issues:
-- Jenkins logs were **rarely analyzed or used for debugging**.
-- Logs were stored in the ELK stack as a **backup only**, resulting in **high costs** due to storage and compute.
+
+> [!NOTE]
+> Jenkins logs were **rarely analyzed or used for debugging**.
+> Logs were stored in the ELK stack as a **backup only**, resulting in **high costs** due to storage and compute.
 
 ---
 
